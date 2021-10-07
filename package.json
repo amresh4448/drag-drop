@@ -1,27 +1,24 @@
 {
   "name": "drag-drop",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "This example illustrates that react-big-calendar doesn't allow events to be dragged from one month to another. Today, you can only drag and drop onto a day that's already visible. We should add a way to trigger a drag from the current month to another month by implementing a hot zone to trigger a next or previous month transition.",
+  "keywords": [],
+  "main": "src/index.js",
   "dependencies": {
-    "@testing-library/jest-dom": "^5.14.1",
-    "@testing-library/react": "^11.2.7",
-    "@testing-library/user-event": "^12.8.3",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
-    "web-vitals": "^1.1.2"
+    "moment": "^2.29.1",
+    "prop-types": "^15.7.2",
+    "react": "16.3.2",
+    "react-big-calendar": "0.19.2",
+    "react-dnd": "2.6.0",
+    "react-dnd-html5-backend": "5.0.1",
+    "react-dom": "16.3.2",
+    "react-scripts": "1.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
   },
   "browserslist": {
     "production": [
